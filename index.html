@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="shortcut icon"
+      href="./images/devchallenges.png"
+      type="image/x-icon"
+    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+    <title>Checkout page</title>
+  </head>
+  <body>
+
+    <!-- ==================================START HEADER AREA=================================  -->
+
+    <header>
+      <h1>Checkout</h1>
+    </header>
+
+   <!-- =======================================END HEADER AREA===============================  -->
+   <!--  ========================================START ITEM SECTION AREA======================== -->
+
+    <section class="item">
+      <div class="item1">
+        <img src="./images/photo1.png" alt="pic1" class="pic" />
+        <div class="info">
+          <h3>Vintage Backbag</h3>
+          <h5 class="money">$54.99 <span>$94.99</span></h5>
+          <div class="box">
+            <span class="material-icons">remove</span>
+            <h5>1</h5>
+            <span class="material-icons">add</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="item1">
+        <img src="./images/photo2.png" alt="pic1" class="pic" />
+        <div class="info">
+          <h3>Levi Shoes</h3>
+          <h5 class="money">$74.99<span>$124.99</span></h5>
+          <div class="box">
+            <span class="material-icons">remove</span>
+            <h5>1</h5>
+            <span class="material-icons">add</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="price">
+        <div class="total">
+          <h4>Shipping</h4>
+          <p>$19</p>
+        </div>
+
+        <div class="total">
+          <h4>Total</h4>
+          <p>$148.98</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===============================END ITEM SECTION AREA===================================== -->
+
+   <!-- ===============================START FORM SECTION AREA====================================  -->
+
+    <section class="form">
+        <div class="contact">
+            <h3>Contact infomation</h3>
+            <form  class="contact-form">
+                <label for="email">E-mail</label><br>
+                <span class="material-icons" id="icon">
+                  mail
+                  </span>
+                <input type="email" placeholder="Enter your email..." class="put"><br>
+                <label for="phone">Phone</label><br>
+                <span class="material-icons" id="icon">
+                  call
+                  </span>
+                <input type="phone" placeholder="Enter your phone..." class="put"><br>
+            </form>
+        </div>
+
+        <div class="shipping">
+            <form class="shipping-form">
+              <h3>Shipping address</h3>
+                <label for="name">Full name</label><br>
+                <span class="material-icons" id="icon">
+                  account_circle
+                  </span>
+                <input type="text" placeholder="Rodney Cotton" id="name" class="put"><br>
+                <label for="address">Address</label><br>
+                <span class="material-icons" id="icon">
+                  home
+                  </span>
+                <input type="text" placeholder="Your address.." class="put"><br>
+                <label for="city">City</label><br>
+                <span class="material-icons" id="icon">
+                  location_city
+                  </span>
+                <input type="text" placeholder="Your city.." class="put"><br>
+                <div class="code">
+                  <div class="post" id="post1">
+                <label for="Country">Country</label><br>
+                <span class="material-icons" id="icon">
+                  public
+                  </span>
+                <input type="text" placeholder="Your country.." class="put"><br>
+              </div>
+                <div class="post" id="post2">
+                <label for="postal-code">Postal code</label><br>
+                <span class="material-icons" id="icon">
+                  markunread_mailbox
+                  </span>
+                <input type="text" placeholder="Your postal code.." class="put">
+              </div>
+              </div> 
+                <label class="tick">
+                   <input type="checkbox" class="check">
+                    <p class="para">Save this information for next time</p>
+                </label>
+            </form> 
+        </div>
+        <button class="btn">Continue</button>
+    </section>
+
+    <!-- ===============================END FORM SECTION AREA==================================  -->
+
+     
+    <!-- ===========================START FOOTER AREA======================================== --> 
+
+    <footer class="foot">
+        <p>created by <a href="http://balbir-portfolio.liveblog365.com/" target="_blank">Balbir Singh</a> 
+         - devChallenges.io</p>
+     </footer>
+
+     <!-- ===============================END FOOTER AREA========================================  -->
+  </body>
+</html>
